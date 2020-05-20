@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+
+.menu {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    background: url('../../assets/img/cover.png');
+}
+
+.header-title {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.header-order button{
+    margin-top: 40px;
+    width: 260px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #257589;
+    color: white;
+    border: 1px solid #257589;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.color-toogler {
+    color: #257589
+}
+
+.header-order button:hover {
+    background: transparent;
+    color: #257589;
+    transition: ease 0.4s;
+    font-weight: 700;
+}
+
+.header-title h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #257589;
+}
+
+.menu-item {
+    color: #257589 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+/* About Section */
+
+.about-section {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.about-title {
+    font-size: 60px;
+    font-weight: 800;
+    color: #257589
+}
+
+.about-description {
+    font-size: 19px;
+    color: #257589;
+    text-align: justify;
+}
+
+/* Services Section */
+
+.services-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.services-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #257589;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.service-description {
+    font-weight: 600;
+    color: #257589;
+    margin-top: 10px;
+}
+
+.service-img:hover {
+    border: .01rem solid #257589;
+}
+
+/* Clients Section */
+
+.clients-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.clients-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #257589;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Contact Section */ 
+
+.contact-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #257589;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.contact-info p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #257589;
+    margin-left: 15px;
+}
+
+.contact-info img {
+    width: 40px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+.send-button {
+    background-color: #257589 !important;
+    color: white;
+    border: 1px solid #257589 !important;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.send-button:hover {
+    background: transparent !important;
+    color: #257589 !important;
+    transition: ease 0.4s;
+    font-weight: 700;
+}
+
+/* Footer */
+
+.dev-info {
+    background-color: #194B57;
+    color: white;
+
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dev-info p {
+    margin: 10px 0;
+}
+
+.dev-info a:hover {
+    color: white;
+}
+
+.dev-info a:visited {
+    color: white;
+}
